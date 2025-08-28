@@ -37,7 +37,7 @@ You can also create the files manually.
 
 ## Provision infrastructure (GitHub)
 
-First, you should fork [this](https://github.com/Alegres/awstraining-eks) repository to your account.
+First, you should fork https://github.com/Alegres/awstraining-eks repository to your account.
 
 Then, you should go to **GitHub -> Your fork repo -> Settings -> Secrets and variables** and create two repository secrets:
 * BACKEND_EMEA_TEST_AWS_KEY
@@ -134,3 +134,4 @@ contexts:
 current-context: arn:aws:eks:eu-central-1:058264348876:cluster/backend-eks
 
 ```
+
